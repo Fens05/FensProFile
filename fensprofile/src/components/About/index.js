@@ -1,10 +1,11 @@
-import React from 'react';
-import {link} from 'react-route-dom';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
+import React from "react";
+import meImage from "../../assets/images/me-img.jpg";
 
-function About(){
-    <div className="container">
-        
-    </div>
+function About() {
+    return (
+        <section>
+            <h1>Krista</h1>
+            <img src={meImage} alt="cover" />
+        </section>
+    );
 }
