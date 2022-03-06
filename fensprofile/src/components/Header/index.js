@@ -1,19 +1,22 @@
 import React from 'react';
 
-import ListGroup from 'reac-boostrap/LisGroup';
+import {ListGroup} from 'reac-boostrap/LisGroup';
 import ListGroupItem from 'react-bootstrap/ListGroupItem';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '.Header.css';
+import ''
+
 
 
 
 function Nav() {
-    let
+    
 
     return(
-        <header>
+      
+        <header >
+        <nav className={ListGroup}>
             <ul className={ListGroup}>
-            <h1> Krista's Page</h1>
+            <h1> Krista Page</h1>
               
           
             <ul className {ListGroup}>
