@@ -1,16 +1,15 @@
-import React from "react";
-import meImage from "../../Assets/Images/me-img.jpg";
+import React from 'react';
+import coverImage from '../../Assets/Images/about.jpg';
+
 
 function About() {
-    return (
-        <div>
-            <div className={Card, 'big-container'}>
-            <img src={meImage} alt="cover" />
-            <div className={ListGoup}>
-            <h1>Krista</h1>
-           
-            <h2>My Story</h2>
-                <p> I am a Minesota Web Devloper that works mainly on the frontend.  their websites. </p>
-        </div>
+    return(
+        <section className="my-5">
+            <h2 id="about">About Krista</h2>
+            <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
+        </section>
+
     );
 }
+
+export default About;
