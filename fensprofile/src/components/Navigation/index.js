@@ -4,10 +4,10 @@ import React, { useState }from 'react';
 
 function Navigation() {
 
-    // // const [currentCategory, setCurrentCategory] = useState(categories[0]);
-    // // const [categories] = useState([
-    // //     name:'projects',
-    // //     desription: ''
+    // const [currentCategory, setCurrentCategory] = useState(categories[0]);
+    // const [categories] = useState([
+    //    name:'projects',
+    //    desription: ''
     // ])
     return (
         <header className='flex-row px-1'>
