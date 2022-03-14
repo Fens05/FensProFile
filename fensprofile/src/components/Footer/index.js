@@ -1,13 +1,13 @@
-/import React from 'react';
-
+import React from 'react';
+import './footer.css';
 function Footer() {
     return (
-        <footer className="footer">
+        <footer className='flex-row px-1'>
             <div>
                 <a 
                     href="https//github.com/Fens05">
                 <img 
-                    src={require("../../assets/logos/github.png")}
+                    src={require("../../Assets/logos/github.jpeg")}
                     alt="Github"
                     className="logo"
                     ></img>       
@@ -15,9 +15,9 @@ function Footer() {
             </div>
             <div>
                 <a 
-                    href="https://www.linkedin.com/in/kristameyer/">
+                    href="https://www.linkedin.com/in/krista-meyer-646997216/">
                 <img 
-                    src={require("../../assets/logos/linkedin.png")}
+                    src={require("../../Assets/logos/linkedin.jpg.webp")}
                     alt="Linkedin"
                     className="logo"
                     ></img>       
@@ -27,7 +27,7 @@ function Footer() {
                 <a 
                     href="mailto:fens05m@gmail.com">
                 <img 
-                    src={require("../../assets/logos/email.png")}
+                    src={require("../../Assets/logos/email.jpeg")}
                     alt="email"
                     className="logo"
                     ></img>       

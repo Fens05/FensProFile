@@ -2,8 +2,9 @@ import React, { useState }from 'react';
 // import { capitalzieFirstLetter } from '../../utils/helpers';
 
 
-function Navigation() {
 
+function Navigation() {
+    
     // const [currentCategory, setCurrentCategory] = useState(categories[0]);
     // const [categories] = useState([
     //    name:'projects',
@@ -13,7 +14,7 @@ function Navigation() {
         <header className='flex-row px-1'>
             <h2>
                 <a href="/">
-                    <span role="img"></span> About Me
+                    <span role="img"> </span> Krista's Profile 
                 </a>
             </h2>
             <nav>
@@ -34,7 +35,7 @@ function Navigation() {
                     </li>
                     <li className='mx-2'>
                         <a href='#Resume'>
-                            Resume
+                        Resume
                         </a>
                     </li>
                 </ul>

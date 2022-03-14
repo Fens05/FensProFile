@@ -6,7 +6,7 @@ import photo from '../../Assets/Images/Projects/petsnack.png';
 function ProjectList(props) {
   const currentCategory = {
     name: "Projects",
-    description: "Projects I worked on.",
+    description: "",
   };
   return (
     <section>
@@ -17,6 +17,7 @@ function ProjectList(props) {
           src={photo}
           alt='PetSnack'
           className="img-thumbnail mx-1" />
+        
           
       </div>
       
