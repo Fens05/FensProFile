@@ -2,6 +2,7 @@
   "name": "fensprofile",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://fens05.github.io/fensprofile",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
@@ -16,6 +17,7 @@
     "reactstrap": "^9.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
