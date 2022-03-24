@@ -15,8 +15,10 @@ function ProjectList(props) {
       <div className='flex-row'>
           <img
           src={photo}
-          alt='PetSnack'
+          alt='ePillbox'
           className="img-thumbnail mx-1" />
+        <a href src='https://pure-harbor-43860.herokuapp.com/'/>
+        <a href src='https://github.com/KieranHannagan/e-pill-box' />
         
           
       </div>
